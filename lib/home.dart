@@ -41,12 +41,12 @@ class _HomePageState extends State<HomePage> {
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: <Widget>[
-                        buildTopChip("healthy", true),
-                        buildTopChip("italian", false),
-                        buildTopChip("mexican", false),
-                        buildTopChip("asian", false),
-                        buildTopChip("chinese", false),
-                        buildTopChip("haitian", false),
+                        buildTopChip("Baasto Saldaato", true),
+                        buildTopChip("Buskeeti", false),
+                        buildTopChip("kalaankal", false),
+                        buildTopChip("Soor", false),
+                        buildTopChip("pasta tallet", false),
+                        buildTopChip("muufo", false),
                       ],
                     ),
                   )
@@ -58,18 +58,18 @@ class _HomePageState extends State<HomePage> {
                   child: ListView(
                 children: <Widget>[
                   buildItem(
-                      "Joe's Linder",
-                      "123 reviews = S. Oxford 13th",
+                      "hada waa diyaar",
+                      "taleex",
                       "https://images.pexels.com/photos/3676531/pexels-photo-3676531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
                       4.5),
                   buildItem(
-                      "Mama's brunch",
-                      "98 reviews = S. Gulier 6th",
+                      "hada waa diyaar",
+                      "zoobe",
                       "https://images.pexels.com/photos/1147993/pexels-photo-1147993.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
                       4.5),
                   buildItem(
-                      "Joe's Linder",
-                      "123 reviews = S. Oxford 13th",
+                      "hada waa diyaar",
+                      "wadajir",
                       "https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
                       4.5),
                 ],

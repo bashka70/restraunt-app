@@ -88,7 +88,7 @@ class _DetailPageState extends State<DetailPage> {
                       BoxShadow(color: Colors.black.withOpacity(0.2))
                     ]),
                     child: Text(
-                      "176 reviews, 10 Friends",
+                      "5 reviews, 10 Friends",
                       style: TextStyle(fontSize: 16.0, color: Colors.white),
                     ),
                   ),
@@ -96,7 +96,7 @@ class _DetailPageState extends State<DetailPage> {
                     height: 10.0,
                   ),
                   Text(
-                    "Sys Brunch",
+                    "HADA DALBO",
                     style: TextStyle(
                         fontSize: 50.0,
                         fontWeight: FontWeight.bold,
@@ -172,7 +172,7 @@ class _DetailPageState extends State<DetailPage> {
               Container(
                 width: MediaQuery.of(context).size.width - 150,
                 child: Text(
-                  "You should consume 2 1/2 cups of vegetables per day according",
+                  "isku day malintii in aad cunto qudaar kugu filan",
                   style: TextStyle(
                     fontSize: 14.0,
                     fontWeight: FontWeight.bold,
